@@ -1,0 +1,26 @@
+{
+  "name": "alicart",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "![Node.js CI](https://github.com/mahfuzali/alicart/workflows/Node.js%20CI/badge.svg) # alicart Interactive full-stack e-commerce application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahfuzali/alicart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahfuzali/alicart/issues"
+  },
+  "homepage": "https://github.com/mahfuzali/alicart#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
